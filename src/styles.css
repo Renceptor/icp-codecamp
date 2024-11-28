@@ -1,0 +1,58 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff; /* Fallback for browsers that don't support background images */
+    background-image: url('white.png'); /* Replace with your image path */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent repeating the image */
+    background-position: center; /* Center the image */
+    margin: 0;
+    padding: 0;
+}
+
+.about-section {
+    background: linear-gradient(to right, #00264D, #0052A2); /* New gradient background */
+    color: white;
+    padding: 50px 0;
+}
+
+
+.content-section {
+    padding: 50px 0;
+}
+
+.bio h3 {
+    font-size: 28px;
+    color: #59796e;
+}
+
+.bio p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify; /* Added to justify the text */
+}
+
+img.rounded-circle {
+    border: 5px solid #fff;
+}
+
+/* Hover effects for social media links */
+.social-link img {
+    transition: transform 0.3s, filter 0.3s; /* Smooth transition */
+}
+
+.social-link img:hover {
+    transform: scale(1.1); /* Slightly enlarge the icon */
+    filter: brightness(1.2); /* Brighten the icon */
+}
+
+/* Hover effect for the button */
+.btn-primary {
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+}
+
+.btn-primary:hover {
+    background: linear-gradient(to right, #00d0ff, #d277ff); /* Match the button to the gradient */
+    transform: scale(1.05); /* Slightly enlarge the button */
+}
+
